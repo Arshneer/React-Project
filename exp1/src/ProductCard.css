@@ -1,0 +1,47 @@
+.card {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.image-box {
+  background: #f1f5f9;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.badge.in {
+  background: #e6f9ee;
+  color: #15803d;
+}
+
+.badge.out {
+  background: #fdecec;
+  color: #b91c1c;
+}
